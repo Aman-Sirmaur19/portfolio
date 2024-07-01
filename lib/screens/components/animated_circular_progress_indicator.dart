@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../../constants.dart';
 
-class AnimatedProgressIndicator extends StatelessWidget {
-  const AnimatedProgressIndicator(
+class AnimatedCircularProgressIndicator extends StatelessWidget {
+  const AnimatedCircularProgressIndicator(
       {super.key, required this.percentage, required this.label});
 
   final double percentage;

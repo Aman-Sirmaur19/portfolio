@@ -27,7 +27,11 @@ class MyInfo extends StatelessWidget {
             const Text(
               'Flutter Developer and Mobile Development Lead @DCC NIT-A',
               textAlign: TextAlign.center,
-              style: TextStyle(fontWeight: FontWeight.w200, height: 1.5),
+              style: TextStyle(
+                fontWeight: FontWeight.w200,
+                height: 1.5,
+                color: bodyTextColor,
+              ),
             ),
             const Spacer(flex: 2),
           ],

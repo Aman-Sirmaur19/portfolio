@@ -5,7 +5,9 @@ import '../constants.dart';
 import './components/side_menu.dart';
 
 class MainScreen extends StatelessWidget {
-  const MainScreen({super.key});
+  const MainScreen({super.key, required this.children});
+
+  final List<Widget> children;
 
   @override
   Widget build(BuildContext context) {
@@ -14,14 +16,17 @@ class MainScreen extends StatelessWidget {
         child: Container(
           constraints: const BoxConstraints(maxWidth: maxWidth),
           child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Expanded(
+              const Expanded(
                 flex: 2,
                 child: SideMenu(),
               ),
+              const SizedBox(width: defaultPadding),
               Expanded(
                 flex: 7,
-                child: Container(color: Colors.blue),
+                child: SingleChildScrollView(
+                    child: Column(children: [...children])),
               ),
             ],
           ),

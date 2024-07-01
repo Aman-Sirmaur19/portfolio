@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import './constants.dart';
-import './screens/main_screen.dart';
+import './screens/home/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         //       bodyMedium: const TextStyle(color: bodyTextColor),
         //     ),
       ),
-      home: const MainScreen(),
+      home: const HomeScreen(),
     );
   }
 }
