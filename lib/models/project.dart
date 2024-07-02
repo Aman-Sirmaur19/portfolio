@@ -16,18 +16,23 @@ List<Project> demoProjects = [
         "This app is used by college students to track their college attendance.",
   ),
   Project(
-    title: "Responsive Admin Panel or Dashboard - Flutter UI",
+    title: "DeliMeals App - Flutter UI / UX, State Management",
     description:
-        "On Flutter V2.* web officially supported on a stable branch. Today I share an Admin panel or you can call.",
+        "This is a meal recipe app that offers you a variety of meal recipes from around the world.",
   ),
   Project(
-    title: "Responsive Admin Panel or Dashboard - Flutter UI",
+    title: "WeChat App - Flutter & Firebase",
     description:
-        "On Flutter V2.* web officially supported on a stable branch. Today I share an Admin panel or you can call.",
+        "A chatting application for you and your family & friends, similar to WhatsApp.",
   ),
   Project(
-    title: "Responsive Admin Panel or Dashboard - Flutter UI",
+    title: "Expense Planner App - Flutter UI / UX",
     description:
-        "On Flutter V2.* web officially supported on a stable branch. Today I share an Admin panel or you can call.",
+        "This app allows users to keep a track & record their daily expenses.",
+  ),
+  Project(
+    title: "MyShop App - Flutter & Firebase",
+    description:
+        "A shopping app that comes with both Admin & Customer panel. Here, users can buy and sell their product.",
   ),
 ];

@@ -37,7 +37,7 @@ class ProjectCard extends StatelessWidget {
           const Spacer(),
           TextButton(
               onPressed: () {},
-              child: const Text('Read More >>',
+              child: const Text('Explore >>',
                   style: TextStyle(color: primaryColor)))
         ],
       ),

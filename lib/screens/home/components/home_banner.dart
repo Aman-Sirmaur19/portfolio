@@ -94,12 +94,24 @@ class AnimatedText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnimatedTextKit(animatedTexts: [
+      TyperAnimatedText('I build Responsive web and mobile app.',
+          speed: const Duration(milliseconds: 60)),
       TyperAnimatedText('I build StudyBuddy App for college exam preparation.',
           speed: const Duration(milliseconds: 60)),
       TyperAnimatedText(
           'I build Attendance Tracker App to track users\' attendance.',
           speed: const Duration(milliseconds: 60)),
-      TyperAnimatedText('I build Responsive web and mobile app.',
+      TyperAnimatedText(
+          'I build DeliMeals App which is a meal recipe app.',
+          speed: const Duration(milliseconds: 60)),
+      TyperAnimatedText(
+          'I build WeChat App, a chat application similar to WhatsApp.',
+          speed: const Duration(milliseconds: 60)),
+      TyperAnimatedText(
+          'I build Expense Planner App to track users\' expenses.',
+          speed: const Duration(milliseconds: 60)),
+      TyperAnimatedText(
+          'I build MyShop App having Admin & Customer panel.',
           speed: const Duration(milliseconds: 60)),
     ]);
   }
