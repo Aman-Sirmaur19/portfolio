@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import './constants.dart';
+import 'constants.dart';
 import 'screens/home/home_screen.dart';
 
 void main() {
